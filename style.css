@@ -46,10 +46,12 @@ ul li a {
 .banner{
     display: flex;
     justify-content: space-between;
+    margin: 0 35 0 230px;
 
 }
 .banner-content{
     width: 580px;
+    
 }
 .banner-greetings{
     font-size: 45px;

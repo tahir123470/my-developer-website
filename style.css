@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.secondary-bg{
+    background-color: aliceblue;
+}
 .text-primary{
     color: rgb(230, 80, 5);
 }
@@ -31,6 +34,15 @@ nav{
     border-radius: 5px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -46,7 +58,7 @@ ul li a {
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35 0 230px;
+    margin: 0 35px 230px;
 
 }
 .banner-content{
@@ -63,4 +75,21 @@ ul li a {
 }
 .banner-pic{
     width:580px ;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    margin: 130px 150px;
+    text-align: center;
+    margin-top: 140px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
 }
